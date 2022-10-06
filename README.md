@@ -6,7 +6,6 @@ Data is available here:
 #### Overview
 Study consisted of 2 simulations (see *Simulation*) and 3 experiments. 2 of the 3 experiment are reported in the main body of the manuscript and 1 in the supplementary material. <br>
 __Name in github repo | Name in paper <br>__
--------------------------------------------------------
 Experiment 1 | Supplementary material <br>
 Experiment 2 | Experiment 1 <br>
 Experiment 3 | Experiment 2 <br>
