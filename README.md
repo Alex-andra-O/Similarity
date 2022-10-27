@@ -1,5 +1,4 @@
-# Project: Great minds think alike: New Measures to Quantify
-the Similarity of Recalls <br>
+# Project: Great Minds Think Alike: New Measures to Quantify the Similarity of Recalls <br>
 
 #### __Data__
 Data is available here:
