@@ -14,3 +14,13 @@ To run the code, go to OSF, download the raw data. Store it in the same folder a
 
 ### __General comments__ <br> 
 Jupyter lab notebooks of all 3 experiments follow a similar structure. Similarity measures can be found at the top, followed by data preparation, concluded by the analyses that are reported in the manuscript. Detailed attention should be paid to the experimental design as there are small but relevant design differences between the experiments.
+
+
+### __Environment__ <br> 
+These are the most important packages that need to be installed. <br> 
+matplotlib.pyplot (3.3.2) <br> 
+numpy (1.19.1) <br> 
+pandas (0.25.1) <br> 
+seaborn (0.11.1) <br> 
+pingouin (0.5.2) <br> 
+scipy (1.3.1) <br> 
