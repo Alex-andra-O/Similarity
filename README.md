@@ -8,8 +8,8 @@ Data is available [on OSF](https://osf.io/cdfm7/)
 
 Study consisted of 2 simulations (see *Simulation*) and 3 experiments. 2 of the 3 experiment are reported in the main body of the manuscript and 1 in the supplementary material. Naming convention is as follows:<br>
 __Name in current manuscript = Name in original data set__<br>
-Experiment 1 = Experiment 2<br>
-Experiment 2 = Experiment 3 <br>
+Analysis 1 = Experiment 2<br>
+Analysis 2 = Experiment 3 <br>
 Supplementary material = Experiment 1<br>
 
 To run the code, go to OSF, download the raw data. Store it in the same folder as the code for the respective experiment and run.
