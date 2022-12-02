@@ -2,7 +2,7 @@
 
 ### __Data__
 
-Data is available [on OSF](https://osf.io/cdfm7/)
+Data is available [on OSF](https://osf.io/cdfm7/). Please save the data from OSF for the respective experiment in the same folder as the code from github for the respective experiment. For example, the code for Experiment 2 should be stored in the same folder as the raw data files for Experiment 2. 
 
 ### __Overview__
 
