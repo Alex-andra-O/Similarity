@@ -1,9 +1,5 @@
 # Great Minds Think Alike: New Measures to Quantify the Similarity of Recalls <br>
 
-### __Data__
-
-Data is available [on OSF](https://osf.io/cdfm7/). Please save the data from OSF for the respective experiment in the same folder as the code from github for the respective experiment. For example, the code for Experiment 2 should be stored in the same folder as the raw data files for Experiment 2. 
-
 ### __Overview__
 
 Study consisted of 2 simulations (see *Simulation*) and 3 experiments. 2 of the 3 experiment are reported in the main body of the manuscript and 1 in the supplementary material. Naming convention is as follows:<br>
@@ -18,6 +14,46 @@ To run the code, go to OSF, download the raw data. Store it in the same folder a
 
 Jupyter lab notebooks of all 3 experiments follow a similar structure. Similarity measures can be found at the top, followed by data preparation, concluded by the analyses that are reported in the manuscript. Detailed attention should be paid to the experimental design as there are small but relevant design differences between the experiments.
 
+
+### __Data__
+
+Data is available [on OSF](https://osf.io/cdfm7/). Please save the data for each experiment in the `data` folder associated with the corresponding experiment:
+
+```
+Similarity
+│   README.md
+│
+└───Experiment1
+│   │
+│   └───data
+│       │   encoding_10_0.dlm
+│       │   encoding_10_0.pkl
+│       │   ...
+│       │   retrieve_10_0_2.dlm
+│       │   retrieve_10_0_2.pkl
+│       │   ...
+│   
+└───Experiment2
+│   │
+│   └───data
+│       │   encoding_100_0.dlm
+│       │   encoding_100_0.pkl
+│       │   ...
+│       │   retrieve_100_0_1.dlm
+│       │   retrieve_100_0_1.pkl
+│   
+└───Experiment3
+│   │
+│   └───data
+│       │   encoding_10_1.dlm
+│       │   encoding_10_1.pkl
+│       │   ...
+│       │   retrieve_10_0_1.dlm
+│       │   retrieve_10_0_1.pkl
+│   
+│   
+└───Simulation
+```
 
 ### __Environment__
 The most important packages requried and the versions used in our analyses are as follows:
