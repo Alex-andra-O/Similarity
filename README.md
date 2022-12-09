@@ -51,7 +51,6 @@ Similarity
 │       │   retrieve_10_0_1.dlm
 │       │   retrieve_10_0_1.pkl
 │   
-│   
 └───Simulation
 ```
 
