@@ -46,11 +46,11 @@ Similarity
         │   retrieve_100_0_1.pkl
    
         Experiment3
-        │   encoding_10_1.dlm
-        │   encoding_10_1.pkl
-        │   ...
-        │   retrieve_10_0_1.dlm
-        │   retrieve_10_0_1.pkl
+            encoding_10_1.dlm
+            encoding_10_1.pkl
+            ...
+            retrieve_10_0_1.dlm
+            retrieve_10_0_1.pkl
 
 
 ```
