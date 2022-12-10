@@ -8,7 +8,7 @@ Analysis 1 = Experiment 2<br>
 Analysis 2 = Experiment 3 <br>
 Supplementary material = Experiment 1<br>
 
-To run the code, go to OSF, download the raw data. Store it in the same folder as the code for the respective experiment and run.
+To run the code, go to OSF, download the raw data. Store the three Experiment folders in the /data folder and run.
 
 ### __General comments__
 
@@ -17,41 +17,42 @@ Jupyter lab notebooks of all 3 experiments follow a similar structure. Similarit
 
 ### __Data__
 
-Data is available [on OSF](https://osf.io/cdfm7/). Please save the data for each experiment in the `data` folder associated with the corresponding experiment:
+Data is available [on OSF](https://osf.io/cdfm7/). Please save the data for each experiment in the `data` folder :
 
 ```
 Similarity
 │   README.md
+│   Similarity_Exp1_git.ipynb
+│   Similarity_Exp2_git.ipynb
+│   Similarity_Exp3_git.ipynb
+│   Similarity_Simulation.ipynb
+│   .gitignore
 │
-└───Experiment1
-│   │
-│   └───data
-│       │   encoding_10_0.dlm
-│       │   encoding_10_0.pkl
-│       │   ...
-│       │   retrieve_10_0_2.dlm
-│       │   retrieve_10_0_2.pkl
-│       │   ...
-│   
-└───Experiment2
-│   │
-│   └───data
-│       │   encoding_100_0.dlm
-│       │   encoding_100_0.pkl
-│       │   ...
-│       │   retrieve_100_0_1.dlm
-│       │   retrieve_100_0_1.pkl
-│   
-└───Experiment3
-│   │
-│   └───data
-│       │   encoding_10_1.dlm
-│       │   encoding_10_1.pkl
-│       │   ...
-│       │   retrieve_10_0_1.dlm
-│       │   retrieve_10_0_1.pkl
-│   
-└───Simulation
+└───data
+    │
+    └───Experiment 1
+        │   encoding_10_0.dlm
+        │   encoding_10_0.pkl
+        │   ...
+        │   retrieve_10_0_2.dlm
+        │   retrieve_10_0_2.pkl
+        │   ...
+    
+        Experiment2
+        │   encoding_100_0.dlm
+        │   encoding_100_0.pkl
+        │   ...
+        │   retrieve_100_0_1.dlm
+        │   retrieve_100_0_1.pkl
+   
+        Experiment3
+        │   encoding_10_1.dlm
+        │   encoding_10_1.pkl
+        │   ...
+        │   retrieve_10_0_1.dlm
+        │   retrieve_10_0_1.pkl
+
+
 ```
 
 ### __Environment__
