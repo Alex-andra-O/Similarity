@@ -8,8 +8,6 @@ Analysis 1 = Experiment 2<br>
 Analysis 2 = Experiment 3 <br>
 Supplementary material = Experiment 1<br>
 
-To run the code, go to OSF, download the raw data. Store the three Experiment folders in the /data folder and run.
-
 ### __General comments__
 
 Jupyter lab notebooks of all 3 experiments follow a similar structure. Similarity measures can be found at the top, followed by data preparation, concluded by the analyses that are reported in the manuscript. Detailed attention should be paid to the experimental design as there are small but relevant design differences between the experiments.
@@ -17,7 +15,7 @@ Jupyter lab notebooks of all 3 experiments follow a similar structure. Similarit
 
 ### __Data__
 
-Data is available [on OSF](https://osf.io/cdfm7/). Please save the data for each experiment in the `data` folder :
+Data is available [on OSF](https://osf.io/cdfm7/). Please save the all the data in the `data` folder:
 
 ```
 Similarity
@@ -30,27 +28,29 @@ Similarity
 │
 └───data
     │
-    └───Experiment 1
+    └───Experiment1
         │   encoding_10_0.dlm
         │   encoding_10_0.pkl
         │   ...
         │   retrieve_10_0_2.dlm
         │   retrieve_10_0_2.pkl
         │   ...
-    
-        Experiment2
+        │   
+        └───Experiment2
         │   encoding_100_0.dlm
         │   encoding_100_0.pkl
         │   ...
         │   retrieve_100_0_1.dlm
         │   retrieve_100_0_1.pkl
-   
-        Experiment3
-            encoding_10_1.dlm
-            encoding_10_1.pkl
-            ...
-            retrieve_10_0_1.dlm
-            retrieve_10_0_1.pkl
+        │   ...
+        │
+        └───Experiment3
+        │   encoding_10_1.dlm
+        │   encoding_10_1.pkl
+        │   ...
+        │   retrieve_10_0_1.dlm
+        │   retrieve_10_0_1.pkl
+        │   ...
 
 
 ```
