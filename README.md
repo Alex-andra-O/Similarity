@@ -15,7 +15,7 @@ Jupyter lab notebooks of all 3 experiments follow a similar structure. Similarit
 
 ### __Data__
 
-Data is available [on OSF](https://osf.io/cdfm7/). Please save the all the data in the `data` folder:
+Data is available [on OSF](https://osf.io/cdfm7/). Please save all the data in the `data` folder:
 
 ```
 Similarity
